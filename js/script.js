@@ -60,7 +60,7 @@ revealBtn.addEventListener("click", function(){
 
     listRandom.push(numberFive.value)
     
-    setTimeout(resetValue, 5000);
+    setTimeout(resetValue, 10000);
 
     revealBtn.style.display = "none";
 

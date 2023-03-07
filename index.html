@@ -8,15 +8,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="hidden-container" class="hidden-number">
-        <input id="numberOne" type="Number">
-        <input id="numberTwo" type="Number">
-        <input id="numberThree" type="Number">
-        <input id="numberFour" type="Number">
-        <input id="numberFive" type="Number">
-        <button id="reveal">Mostra i Numeri</button>
-        <button id="send">Invia risposte</button>
-        <div id="result"></div>
+    <div class="container">
+        <div id="hidden-container" class="hidden-number">
+            <div class="title">
+                <h1>INDOVINA I NUMERI</h1>
+                <h2>Regole:</h2>
+                <span>Cliccando sul pulsante "mostra i numeri" ti verranno mostrati 5 numeri per un tempo massimo di 10 secondi.</span>
+                <span>Una volta scomparsi avrai la possibilità di scrivere tutti i numeri che ti ricordi all'interno dei box vuoti.</span>
+            </div>
+            <input id="numberOne" class="numberSection" type="Number">
+            <input id="numberTwo" class="numberSection" type="Number">
+            <input id="numberThree" class="numberSection" type="Number">
+            <input id="numberFour" class="numberSection" type="Number">
+            <input id="numberFive" class="numberSection" type="Number">
+            <button id="reveal">Mostra i Numeri</button>
+            <button id="send">Invia risposte</button>
+            <div id="result"></div>
+        </div>
     </div>
     <script src="js/script.js" type="text/javascript"></script>
 </body>

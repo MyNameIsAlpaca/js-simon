@@ -66,7 +66,7 @@ revealBtn.addEventListener("click", function(){
 
     setTimeout(() => {
         sendBtn.style.display = "block";
-      }, "5000");
+      }, "10000");
 
 });
 

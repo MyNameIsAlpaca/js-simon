@@ -92,7 +92,14 @@ sendBtn.addEventListener("click", function(){
 
     sendBtn.style.display = "none";
 
-    result.innerHTML = `Hai indovinato ${point} numeri su 5`
+    if (point ==  0) {
+        result.innerHTML = `Hai indovinato ${point} numeri su 5 :( impegnati di più la prossima volta!`
+    } else if (point == 5) {
+        result.innerHTML = `Hai indovinato ${point} numeri su 5 :D la tua memoria è infallibile!`
+    } else {
+        result.innerHTML = `Hai indovinato ${point} numeri su 5!`
+    }
+
 
 });
 
